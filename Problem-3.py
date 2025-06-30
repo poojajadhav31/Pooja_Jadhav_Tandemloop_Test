@@ -5,6 +5,5 @@ def generate_series_2(a):
     series = list(range(1, count + 1, 2))
     return series
 
-# User interaction
 a = int(input("Enter a number: "))
 print("Output:", generate_series_2(a))
